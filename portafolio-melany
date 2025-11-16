@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Melany</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color:#d46ba3;">Melany Kriscel Jiménez Burgos</h1>
+        <p>Mi primera página web hecha con HTML5 ✨</p>
+        <img src="https://i.imgur.com/8QwECYV.png" alt="Mi foto" width="150">
+    </header>
+
+    <nav>
+        <a href="#sobremi">Sobre mí</a> |
+        <a href="#intereses">Intereses</a> |
+        <a href="#habilidades">Habilidades</a> |
+        <a href="#audio">Audio</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="sobremi">
+        <h2 style="color:#c25993;">Sobre mí</h2>
+        <p>
+            Hola, soy <strong>Melany</strong>. Estoy empezando en el mundo del desarrollo web y este es mi
+            primer proyecto usando HTML5. Todavía estoy aprendiendo lo básico, pero poco a poco voy 
+            entendiendo más. Soy una persona <em>creativa</em>, curiosa y me gusta mucho aprender cosas nuevas.
+            Algo que me identifica es la <mark>perseverancia</mark>, porque me gusta terminar lo que empiezo.
+        </p>
+    </section>
+
+    <section id="intereses">
+        <h2 style="color:#c25993;">Mis intereses</h2>
+        <ul>
+            <li>Programación (aunque estoy empezando)</li>
+            <li>Edición de videos 🎥</li>
+            <li>Diseño básico</li>
+            <li>Cuidado de animales, especialmente gatos 🐱</li>
+            <li>Aprender cosas nuevas en tecnología</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2 style="color:#c25993;">Mis habilidades (aprendiendo)</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Básico</td>
+                    <td>Recién aprendiendo etiquetas y estructura</td>
+                </tr>
+                <tr>
+                    <td>Edición de video</td>
+                    <td>Intermedio</td>
+                    <td>Me gusta editar y aprender efectos</td>
+                </tr>
+                <tr>
+                    <td>Creatividad</td>
+                    <td>Alta</td>
+                    <td>Siempre trato de poner mi toque personal 💗</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Actualizado en 2025</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="audio">
+        <h2 style="color:#c25993;">Audio de presentación</h2>
+        <audio controls>
+            <source src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars3.wav" type="audio/wav">
+        </audio>
+        <p style="font-size: small;">Este audio es solo de prueba, como pide el microproyecto.</p>
+    </section>
+
+    <section id="contacto">
+        <h2 style="color:#c25993;">Formulario de contacto</h2>
+
+        <form>
+            <label>Nombre:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Correo:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Edad:</label><br>
+            <input type="number" min="1" max="100" required><br><br>
+
+            <label>Género:</label><br>
+            <select required>
+                <option value="">Seleccione</option>
+                <option value="f">Femenino</option>
+                <option value="m">Masculino</option>
+                <option value="o">Otro</option>
+            </select><br><br>
+
+            <label>Intereses:</label><br>
+            <input type="checkbox"> Programación<br>
+            <input type="checkbox"> Edición<br>
+            <input type="checkbox"> Diseño<br><br>
+
+            <label>Comentarios:</label><br>
+            <textarea rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 - Página creada por Melany 💕</p>
+        <p>Mis redes:
+            <a href="https://www.instagram.com">Instagram</a> |
+            <a href="https://www.facebook.com">Facebook</a>
+        </p>
+    </footer>
+
+</body>
+</html>
